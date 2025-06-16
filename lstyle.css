@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('LOGIN.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+} 
+a{
+    text-decoration: none;       /* Remove underline */    
+    font-family: Arial, sans-serif; /* Optional: clean font */
+color:black;
+}
+a:hover {
+    background-color: grey;      /* Optional: slightly lighter black on hover */
+}
+input, button {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+button:hover {
+background-color: #d6b3ff;
+}
+h1{color:white}
+button {
+background-color: #6f42c1;
+    color: white;
+    cursor: pointer;
+}

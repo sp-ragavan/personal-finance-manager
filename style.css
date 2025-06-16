@@ -1,0 +1,209 @@
+.wallet-popup {
+    display: none;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+
+
+input, button {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+background-color: #6f42c1;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+background-color: #d6b3ff;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.logout-button, .back-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+.logout-button {
+    background-color: #dc3545;
+}
+
+.back-button {
+    background-color: #007bff;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.nav{
+    text-decoration: none;       /* Remove underline */
+    display: inline-block;       /* Make it a box */
+    background-color: black;     /* Black background */
+    color: white;                /* White text */
+width:300px;
+    padding: 10px 20px;          /* Add some spacing */
+    border-radius: 2px;          /* Optional: rounded corners */
+    margin: 10px 5px;               /* Space between links */
+    font-family: Arial, sans-serif; /* Optional: clean font */
+    text-align: center;
+}
+a{
+    text-decoration: none;       /* Remove underline */    
+    padding: 10px 20px;          /* Add some spacing */
+    font-family: Arial, sans-serif; /* Optional: clean font */
+}
+
+.nav:hover {
+    background-color: #333;      /* Optional: slightly lighter black on hover */
+}
+a:hover {
+    background-color: #grey;      /* Optional: slightly lighter black on hover */
+}
+
+.acontainer {
+    width: 900px;
+    margin: 50px auto; /* Horizontally centers the container */
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px 0px gray;}
+
+h1,h2{color:red}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #4B0082; /* Optional: dark purple font */
+}
+
+.top-center {
+    margin: 20px 0;
+}
+
+.main-sections {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+gap: 80px;
+    text-align: left;
+}
+
+.left, .right {
+    width: 35%;
+}
+
+.bottom-center {
+    margin-top: 30px;
+}
+.expense-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; /* Space between left and right */
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    min-width: 400px;
+}
+
+.container, .acontainer {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+.savings-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; /* space between left and right */
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    min-width: 400px;
+}
+
+.container, .acontainer {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}
+
+/* Optional: make the table full width in right section */
+.acontainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.acontainer th, .acontainer td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+
